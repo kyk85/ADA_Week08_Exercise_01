@@ -1,0 +1,29 @@
+.slideShowContainer {
+	width: 800px;
+	height: 440px;
+	overflow: hidden;
+	position: absolute;
+	margin: 0px auto; /*center image*/
+	top: 0px;
+	right: 0px;
+	bottom: 0px;
+	left: 0px;
+	border: 1px solid black;
+	border-radius: 5px;
+	background: grey;
+	box-shadow: 5px 5px 2px black;
+}
+
+.slideShow {
+	list-style-type: none;
+	margin: 0px;
+	padding: 0px;
+	position: absolute;
+}
+
+.slideShow > li {
+	position: absolute;
+	top: 0;
+	left: 0;
+	display: none;
+}
